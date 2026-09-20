@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "expanded_weaponry/backpack/supply_chain/supply_chain.vtf"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

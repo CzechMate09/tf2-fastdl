@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "expanded_weaponry/backpack/schmerzschild/schmerzschild.vtf"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

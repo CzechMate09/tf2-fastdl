@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "expanded_weaponry/backpack/artillery_sentry/artillery_sentry.vtf"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

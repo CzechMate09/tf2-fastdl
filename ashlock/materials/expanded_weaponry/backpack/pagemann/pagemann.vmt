@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "expanded_weaponry/backpack/pagemann/pagemann.vtf"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

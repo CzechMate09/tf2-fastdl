@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "expanded_weaponry/backpack/trench_buster/trench_buster"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

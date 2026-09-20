@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "expanded_weaponry/backpack/portable_ordinance/portable_ordinance.vtf"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

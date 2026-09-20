@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "expanded_weaponry/backpack/vieille_fleur/vieille_fleur.vtf"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

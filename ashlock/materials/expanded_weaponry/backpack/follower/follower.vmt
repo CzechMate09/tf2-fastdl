@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "expanded_weaponry/backpack/follower/follower"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

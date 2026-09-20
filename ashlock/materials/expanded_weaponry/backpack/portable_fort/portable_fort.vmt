@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "expanded_weaponry/backpack/portable_fort/portable_fort"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

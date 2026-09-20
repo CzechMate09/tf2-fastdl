@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "expanded_weaponry/backpack/ponk_hammer/ponk_hammer"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "expanded_weaponry/backpack/land_miner/land_miner.vtf"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

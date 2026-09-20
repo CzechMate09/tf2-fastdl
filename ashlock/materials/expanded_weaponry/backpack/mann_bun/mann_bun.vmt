@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "expanded_weaponry/backpack/mann_bun/mann_bun.vtf"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}

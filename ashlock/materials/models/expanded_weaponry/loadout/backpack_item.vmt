@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\backpack_rect"
+	"$alphatest" 1
+}

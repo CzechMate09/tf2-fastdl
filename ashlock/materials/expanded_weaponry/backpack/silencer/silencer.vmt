@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "expanded_weaponry/backpack/silencer/silencer"
+	"$translucent" "1"
+	"$vertexcolor" "1"
+}
