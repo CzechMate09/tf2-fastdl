@@ -1,0 +1,42 @@
+name: Compress Assets
+
+on:
+  push:
+    paths:
+      - '**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  compress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Compress large assets
+        run: |
+          find . -type f \
+            -size +1M \
+            ! -name '*.bz2' \
+            ! -name '*.ogg' \
+            ! -name '*.mp3' \
+            ! -name '*.vmt' \
+            -exec bzip2 -k -f {} \;
+
+      - name: Commit compressed assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .
+
+          if git diff --cached --quiet; then
+            echo "No compressed files to commit."
+          else
+            git commit -m "Compress large assets"
+            git push
+          fi
