@@ -25,7 +25,7 @@ jobs:
             ! -name '*.ogg' \
             ! -name '*.mp3' \
             ! -name '*.vmt' \
-            -exec bzip2 -k -f {} \;
+            -exec bzip2 -f {} \;
 
       - name: Commit compressed assets
         run: |
