@@ -17,9 +17,18 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v6
 
+      - name: Debug Git
+        run: |
+          git status
+          git branch
+          git log --oneline -5
+          git rev-parse HEAD
+
       - name: Compress large assets
         run: |
-          find . -type f \
+          find . \
+            -path './.git' -prune -o \
+            -type f \
             -size +1M \
             ! -name '*.bz2' \
             ! -name '*.ogg' \
