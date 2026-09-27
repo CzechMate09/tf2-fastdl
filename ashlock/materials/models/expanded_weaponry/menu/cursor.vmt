@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	$basetexture "models/expanded_weaponry/cursor"
+	$basetexture "models/expanded_weaponry/menu/cursor"
 	$nocull 1
 	$alphatest 1
 	$ignorez 1
