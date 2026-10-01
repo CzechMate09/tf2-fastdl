@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/vieille_fleur/vieille_fleur.vtf"
+	"$translucent" "1"
+}

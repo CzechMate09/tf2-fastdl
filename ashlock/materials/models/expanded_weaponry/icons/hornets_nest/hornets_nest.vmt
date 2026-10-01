@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/hornets_nest/hornets_nest"
+	"$translucent" "1"
+}

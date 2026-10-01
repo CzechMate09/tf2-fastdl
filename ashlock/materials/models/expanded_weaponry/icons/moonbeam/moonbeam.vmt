@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/moonbeam/moonbeam.vtf"
+	"$translucent" "1"
+}

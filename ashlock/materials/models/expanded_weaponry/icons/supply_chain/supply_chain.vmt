@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/supply_chain/supply_chain.vtf"
+	"$translucent" "1"
+}

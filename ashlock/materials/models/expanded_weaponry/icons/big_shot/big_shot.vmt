@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/big_shot/big_shot"
+	"$translucent" "1"
+}

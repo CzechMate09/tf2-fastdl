@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/hand-held_howitzer/hand-held_howitzer.vtf"
+	"$translucent" "1"
+}

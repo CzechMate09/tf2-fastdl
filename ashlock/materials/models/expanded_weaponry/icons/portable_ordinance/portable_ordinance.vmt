@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/portable_ordinance/portable_ordinance.vtf"
+	"$translucent" "1"
+}

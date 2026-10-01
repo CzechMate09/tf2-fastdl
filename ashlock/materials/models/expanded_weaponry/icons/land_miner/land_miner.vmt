@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/land_miner/land_miner.vtf"
+	"$translucent" "1"
+}

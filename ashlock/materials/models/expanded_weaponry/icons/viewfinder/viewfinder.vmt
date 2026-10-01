@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/viewfinder/viewfinder.vtf"
+	"$translucent" "1"
+}

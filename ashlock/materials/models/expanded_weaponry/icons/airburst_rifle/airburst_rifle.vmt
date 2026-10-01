@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/airburst_rifle/airburst_rifle.vtf"
+	"$translucent" "1"
+}

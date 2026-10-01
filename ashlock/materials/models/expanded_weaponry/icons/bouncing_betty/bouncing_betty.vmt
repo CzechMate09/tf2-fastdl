@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/bouncing_betty/bouncing_betty.vtf"
+	"$translucent" "1"
+}

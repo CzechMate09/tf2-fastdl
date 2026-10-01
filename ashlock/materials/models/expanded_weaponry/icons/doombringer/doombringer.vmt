@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/doombringer/doombringer.vtf"
+	"$translucent" "1"
+}

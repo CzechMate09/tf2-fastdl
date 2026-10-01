@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/cerberus/cerberus.vtf"
+	"$translucent" "1"
+}

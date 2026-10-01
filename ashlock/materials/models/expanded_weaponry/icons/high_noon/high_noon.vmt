@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/high_noon/high_noon.vtf"
+	"$translucent" "1"
+}

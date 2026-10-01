@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/mann_bun/mann_bun.vtf"
+	"$translucent" "1"
+}

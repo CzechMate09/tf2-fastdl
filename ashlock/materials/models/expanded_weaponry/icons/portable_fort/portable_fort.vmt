@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/portable_fort/portable_fort"
+	"$translucent" "1"
+}

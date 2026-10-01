@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/artillery_sentry/artillery_sentry.vtf"
+	"$translucent" "1"
+}

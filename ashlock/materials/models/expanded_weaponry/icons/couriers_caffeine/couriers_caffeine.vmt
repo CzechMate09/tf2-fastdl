@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/couriers_caffeine/couriers_caffeine"
+	"$translucent" "1"
+}

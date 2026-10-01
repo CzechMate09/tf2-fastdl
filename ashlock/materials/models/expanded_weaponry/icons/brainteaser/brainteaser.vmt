@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/brainteaser/brainteaser.vtf"
+	"$translucent" "1"
+}

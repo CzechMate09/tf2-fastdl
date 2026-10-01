@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/sewing_machine/sewing_machine.vtf"
+	"$translucent" "1"
+}

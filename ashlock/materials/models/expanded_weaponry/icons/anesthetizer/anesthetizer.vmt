@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/anesthetizer/anesthetizer.vtf"
+	"$translucent" "1"
+}

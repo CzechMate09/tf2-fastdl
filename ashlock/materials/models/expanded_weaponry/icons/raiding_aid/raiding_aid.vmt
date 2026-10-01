@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/raiding_aid/raiding_aid.vtf"
+	"$translucent" "1"
+}

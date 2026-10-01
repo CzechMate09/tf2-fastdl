@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/bolshevik_baron/bolshevik_baron.vtf"
+	"$translucent" "1"
+}

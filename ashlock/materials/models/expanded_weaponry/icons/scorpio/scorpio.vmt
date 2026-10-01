@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/scorpio/scorpio.vtf"
+	"$translucent" "1"
+}

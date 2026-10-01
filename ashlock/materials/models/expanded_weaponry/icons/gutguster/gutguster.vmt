@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/gutguster/gutguster.vtf"
+	"$translucent" "1"
+}

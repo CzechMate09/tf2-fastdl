@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/shaitan_truba/shaitan_truba.vtf"
+	"$translucent" "1"
+}

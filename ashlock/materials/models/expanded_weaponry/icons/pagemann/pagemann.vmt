@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/pagemann/pagemann.vtf"
+	"$translucent" "1"
+}

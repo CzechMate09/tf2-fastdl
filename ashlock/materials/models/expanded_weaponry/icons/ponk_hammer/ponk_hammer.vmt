@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/ponk_hammer/ponk_hammer"
+	"$translucent" "1"
+}

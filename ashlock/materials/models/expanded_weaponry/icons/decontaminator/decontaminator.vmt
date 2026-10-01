@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/decontaminator/decontaminator.vtf"
+	"$translucent" "1"
+}
