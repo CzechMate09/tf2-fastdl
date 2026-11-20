@@ -1,0 +1,16 @@
+"Refract"
+{
+	<dx90
+	{
+		"$fallbackmaterial" "models/props_c17/fisheyelens_DX60"
+	}
+
+ 	"$model" "1"
+ 	"$nowritez" "1"
+	"$nodecal" "1"
+	"$refracttint" "[5 5 5]"
+ 	"$refractamount" ".28"
+	"$bluramount" ".75"
+ 	"$normalmap"  "models\expanded_weaponry\weapons\viewfinder\xsniper_tv.vtf"
+ 	"$forcerefract" "1"
+}

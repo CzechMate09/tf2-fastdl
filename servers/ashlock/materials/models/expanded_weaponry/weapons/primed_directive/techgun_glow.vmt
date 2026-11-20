@@ -1,0 +1,32 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\expanded_weaponry\weapons\primed_directive\techgun.vtf"
+	
+	
+	"$selfillum" "1"
+	"$selfillumtint" "[2 2 2]"
+	"$glowcolor" "255 255 255"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

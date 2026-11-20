@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "models/expanded_weaponry/icons/building_pda_kit/building_pda_kit.vtf"
+	"$alphatest" "1"
+}

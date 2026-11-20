@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	//"$basetexture" "vgui\backpack_rect"
+	"$basetexture" "vgui\loadout_rect"
+	//"$translucent" 1
+	"$alphatest" 1
+}
