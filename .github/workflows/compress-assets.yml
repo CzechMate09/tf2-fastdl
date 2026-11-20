@@ -1,0 +1,79 @@
+name: Compress and Publish TF2 Assets
+
+on:
+  push:
+    paths:
+      - 'servers/**'
+      - '.github/workflows/compress-assets.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  compress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      # Find all server folders
+      - name: Find servers
+        id: servers
+        run: SERVERS=$(find servers -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | sort)
+
+      # Compress files
+      - name: Compress large assets
+        run: |
+          find servers -type f -size +1M \
+            ! -name '*.bz2' \
+            ! -name '*.ogg' \
+            ! -name '*.mp3' \
+            ! -name '*.vmt' \
+            -exec bzip2 -f {} \;
+
+      # Commit compressed assets
+      - name: Commit compressed assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A -- servers/
+
+          if git diff --cached --quiet HEAD --; then
+            echo "No changes to commit."
+          else
+            git commit -m "Compress large assets"
+            git push origin HEAD:main
+          fi
+
+      # Create ZIPs and releases
+      - name: Package and release servers
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SERVERS: ${{ steps.servers.outputs.servers }}
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y zip
+
+          while IFS= read -r server; do
+            [ -z "$server" ] && continue
+
+            NAME=$(basename "$server")
+            TAG="${NAME}-assets"
+
+            echo "Packaging $NAME..."
+
+            (cd "servers/$NAME" && zip -r -q "$GITHUB_WORKSPACE/$NAME.zip" .)
+
+            if gh release view "$TAG" >/dev/null 2>&1; then
+              gh release upload "$TAG" "$NAME.zip" --clobber
+            else
+              gh release create "$TAG" "$NAME.zip" \
+                --title "$NAME assets" \
+                --notes "Assets for TF2 server $NAME." \
+                --latest=false
+            fi
+
+          done <<< "$SERVERS"
