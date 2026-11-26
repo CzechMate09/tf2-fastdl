@@ -21,7 +21,16 @@ jobs:
       # Find all server folders
       - name: Find servers
         id: servers
-        run: SERVERS=$(find servers -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | sort)
+        run: |
+          SERVERS=$(find servers -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | sort)
+
+          echo "$SERVERS"
+
+          {
+            echo "servers<<EOF"
+            echo "$SERVERS"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
 
       # Compress files
       - name: Compress large assets
